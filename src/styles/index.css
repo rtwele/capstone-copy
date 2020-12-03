@@ -66,3 +66,17 @@ body {
 }
 /* Footer */
 
+<<<<<<< HEAD
+=======
+.holder2{
+  margin-bottom: 900px;
+  width: 300px;
+  
+}
+
+.moveDown{
+  height: 150px;
+  overflow: visible;
+  z-index: 9999;
+}
+>>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
