@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
-import Player from "../components/Videoplayer"
 import Cards from '../components/Cards';
+import { HeroSection } from '../components/HeroSection'
+import FooterHome from '../components/FooterHome'
 
-export default class HomePage extends Component {
+ class HomePage extends Component {
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
         document.getElementsByClassName('nav')[0].classList.add('make-transparent');
@@ -34,19 +35,20 @@ export default class HomePage extends Component {
                         Settled in 1788, the city is located at the northern side of the confluence of the Licking and Ohio rivers, the latter of which marks the state line with Kentucky. 
                         The city is the economic and cultural hub of the Cincinnati metropolitan area, the fastest growing economic power in the Midwestern United States based on increase of economic output,
                         which had a population of 2,190,209 as of the 2018 census estimates. The Over-the-Rhine district is known for its 19th-century architecture, including Findlay Market, which has food and craft vendors. 
-                        To the north is the Cincinnati Zoo & Botanical Garden. The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal.
+                        To the north is the Cincinnati Zoo  Botanical Garden. The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal.
                          Works spanning 6,000 years are on display at the Cincinnati Art Museum. Cincinnati is home to three major sports teams: the Cincinnati Reds of Major League Baseball; the Cincinnati Bengals of the National Football League; and FC Cincinnati of Major League Soccer. 
                          The city's largest institution of higher education, the University of Cincinnati.
                     </p>
                 </div>
 
                 <Cards />
-                <Player/>
-               
+                <HeroSection />
 
+                <FooterHome />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
                 <script src="js/scripts.js"></script>
             </div>
         )
     }
 }
+export default HomePage

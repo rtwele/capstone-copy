@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 // Page & Component Imports
 import Navbar from './components/Navbar'
-import HomePage from './pages/homePage'
+import HomePage from './pages/HomePage'
 import About from './pages/About'
 import Contact from './pages/Contact'
 // import NotFound from './pages/NotFound';
@@ -21,7 +21,7 @@ export default class App extends Component {
         <Navbar />
         <Route exact path='/' component={HomePage}/>
         <Route path='/about' component={About}/>
-        <Route path='/contact' component={Contact}/>
+        <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />
         {/* <Route component={NotFound}/> */}
       </Router>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Footer from '../components/Footer'
+import FooterHome from '../components/FooterHome'
 import '../styles/AddAttraction.css'
 
 
@@ -121,10 +121,10 @@ export default class AddAttraction extends Component {
             <div>
                 <div className='containerAddPage'>
                     <h2 className='text-center'>Add a New Attraction</h2>
-                    <form onSubmit={this.onSubmit}>
+                    <form className='' onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Name: </label>
-                            <input type='text' required className='form-control' 
+                            <input type='text' required className='form-control inputs' 
                             value={this.state.name} onChange={this.onChangeName}>
                             </input>
                         </div>
@@ -179,6 +179,7 @@ export default class AddAttraction extends Component {
                         </div>
                         <div className="form-group">
                             <label>Indoors: </label>
+                            <div className="select-style">
                             <select required 
                             className='form-control'
                             onChange={this.onChangeIndoors}>
@@ -186,9 +187,11 @@ export default class AddAttraction extends Component {
                                 <option value='1'>Indoor</option>
                                 <option value='0'>Outdoor</option>
                             </select>
+                            </div>
                         </div>
                         <div className="form-group">
                             <label>Child Friendly: </label>
+                            <div className="select-style">
                             <select required 
                             className='form-control'
                             onChange={this.onChange}>
@@ -197,12 +200,13 @@ export default class AddAttraction extends Component {
                                 <option value='0'>21 and over</option>
                             </select>
                         </div>
+                        </div>
                         <div className='form-group'>
                             <input type='submit' value="Add Attraction" className="btn" />
                         </div>
                     </form>
                 </div>
-                <Footer />
+            <FooterHome />
             </div>
         )
     }
