@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-<<<<<<< HEAD
-import Footer from '../components/Footer'
-=======
 import FooterHome from '../components/FooterHome'
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
 import '../styles/AddAttraction.css'
 
 
