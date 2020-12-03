@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 div .containerAddPage {
     background-image: url('../assets/cincinnati.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
     height: auto;
+=======
+.containerAddPage {        
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    background-image: url('../assets/cincinnati.jpg');
+    background-repeat: no-repeat;
+    background-image: cover;
+>>>>>>> a0cc0d661f9488d5d8bf04452affbafaa6a5262e
 }
 .nav {
     z-index: 1;
@@ -56,12 +65,6 @@ input {
     z-index: 1;
 }
 
-.App {
-    /* background-image: url('../assets/bridge.jpg'); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 .select-style {
     border: 1px solid #ccc;
@@ -70,7 +73,7 @@ input {
     overflow: hidden;
     background: #fafafa;
     display: block;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .select-style select {
@@ -87,4 +90,8 @@ input {
 
 .select-style select:focus {
     outline: none;
+}
+
+.body {
+    background-image: url('../assets/cincinnati.jpg');
 }
