@@ -1,15 +1,8 @@
 import React, {Component} from 'react'
-<<<<<<< HEAD
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { HeroSection } from '../components/HeroSection'
-// import Player from "../components/Videoplayer"
-=======
 import Player from "../components/Videoplayer"
 import Cards from '../components/Cards';
+import FooterHome from '../components/FooterHome'
 
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
 export default class HomePage extends Component {
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
@@ -45,23 +38,13 @@ export default class HomePage extends Component {
                         To the north is the Cincinnati Zoo & Botanical Garden. The Cincinnati Museum Center encompasses history, science and children's museums in the art deco Union Terminal.
                          Works spanning 6,000 years are on display at the Cincinnati Art Museum. Cincinnati is home to three major sports teams: the Cincinnati Reds of Major League Baseball; the Cincinnati Bengals of the National Football League; and FC Cincinnati of Major League Soccer. 
                          The city's largest institution of higher education, the University of Cincinnati.
-<<<<<<< HEAD
-                 </p>
-                 <HeroSection/>
-                 {/* <Player/> */}
-=======
                     </p>
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
                 </div>
 
                 <Cards />
                 <Player/>
-<<<<<<< HEAD
-                <FooterHome />
-=======
-               
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
 
+                <FooterHome />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
                 <script src="js/scripts.js"></script>
             </div>

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-<<<<<<< HEAD
 import Footer from '../components/Footer'
-=======
 import FooterHome from '../components/FooterHome'
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
 import '../styles/AddAttraction.css'
 
 
@@ -125,21 +122,10 @@ export default class AddAttraction extends Component {
             <div>
                 <div className='containerAddPage'>
                     <h2 className='text-center'>Add a New Attraction</h2>
-<<<<<<< HEAD
-                    <form onSubmit={this.onSubmit}>
-                        <div className="form-group">
-                            <label>Name: </label>
-                            <input type='text' required className='form-control' 
-=======
-<<<<<<< HEAD
-                    <form class="add-attraction-form" onSubmit={this.onSubmit}>
-=======
-                    <form className=''onSubmit={this.onSubmit}>
->>>>>>> 7f012e2770772525a8ca9c4f35bb77b4602e66ef
+                    <form className='' onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Name: </label>
                             <input type='text' required className='form-control inputs' 
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
                             value={this.state.name} onChange={this.onChangeName}>
                             </input>
                         </div>
@@ -194,10 +180,7 @@ export default class AddAttraction extends Component {
                         </div>
                         <div className="form-group">
                             <label>Indoors: </label>
-<<<<<<< HEAD
-=======
                             <div className="select-style">
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
                             <select required 
                             className='form-control'
                             onChange={this.onChangeIndoors}>
@@ -205,17 +188,11 @@ export default class AddAttraction extends Component {
                                 <option value='1'>Indoor</option>
                                 <option value='0'>Outdoor</option>
                             </select>
-<<<<<<< HEAD
-                        </div>
-                        <div className="form-group">
-                            <label>Child Friendly: </label>
-=======
                             </div>
                         </div>
                         <div className="form-group">
                             <label>Child Friendly: </label>
                             <div className="select-style">
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
                             <select required 
                             className='form-control'
                             onChange={this.onChange}>
@@ -224,24 +201,13 @@ export default class AddAttraction extends Component {
                                 <option value='0'>21 and over</option>
                             </select>
                         </div>
-<<<<<<< HEAD
-=======
                         </div>
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
                         <div className='form-group'>
                             <input type='submit' value="Add Attraction" className="btn" />
                         </div>
                     </form>
                 </div>
-<<<<<<< HEAD
-                <Footer />
-=======
-<<<<<<< HEAD
-                <FooterHome />
-=======
             <FooterHome />
->>>>>>> 7f012e2770772525a8ca9c4f35bb77b4602e66ef
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
             </div>
         )
     }
