@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FooterHome from '../components/FooterHome'
-import '../styles/AddAttraction.css'
+import FooterHome from '../components/FooterHome';
+import '../styles/AddAttraction.css';
 
 
 export default class AddAttraction extends Component {

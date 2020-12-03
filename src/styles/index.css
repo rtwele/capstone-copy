@@ -77,3 +77,13 @@ body {
   overflow: visible;
   z-index: 9999;
 }
+
+.myH2 {
+  padding: 4rem;
+}
+
+.myP {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 6rem;
+}
