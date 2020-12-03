@@ -57,7 +57,7 @@ input {
 }
 
 .App {
-    background-image: url('../assets/bridge.jpg');
+    /* background-image: url('../assets/bridge.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
