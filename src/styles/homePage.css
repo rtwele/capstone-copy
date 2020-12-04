@@ -100,7 +100,7 @@ body {
 #landing-text {
     margin: 0;
     color: white;
-    font-size: 55px;
+    font-size: 65px;
     text-shadow: 3px 3px black;
     
 }
@@ -379,7 +379,8 @@ body {
 	text-align: justify;
 	padding-left:15%;
 	padding-right:15%;
-	font-size: 20px;
+    font-size: 20px;
+    padding-top: 6rem;
 }
 @media all and (max-width:700px){
 	.myP {
@@ -473,6 +474,7 @@ ul {
 #arts {
     background-image: url('../assets/artsCard.jpg');
 }
+
 #sports {
     background-image: url('../assets/sportsCard.jpg');
 }

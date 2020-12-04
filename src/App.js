@@ -8,6 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 // import NotFound from './pages/NotFound';
 import AddAttraction from './pages/AddAttraction'
+import Card from './pages/Art'
 
 // styles
 import './styles/App.css';
