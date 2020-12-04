@@ -121,7 +121,7 @@ export default class AddAttraction extends Component {
             <div>
                 <div className='containerAddPage'>
                     <h2 className='text-center'>Add a New Attraction</h2>
-                    <form className='' onSubmit={this.onSubmit}>
+                    <form className='add' onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Name: </label>
                             <input type='text' required className='form-control inputs' 
@@ -195,7 +195,7 @@ export default class AddAttraction extends Component {
                             <select required 
                             className='form-control'
                             onChange={this.onChange}>
-                                <option value=''>Select</option>
+                                <option className='dropdown' value=''>Select</option>
                                 <option value='1'>Child Friendly</option>
                                 <option value='0'>21 and over</option>
                             </select>

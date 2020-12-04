@@ -27,7 +27,7 @@ import FooterHome from '../components/FooterHome'
         return (
             <div onScroll={ this.handleScroll }>
                 <section className="home">
-                    <div className="perf">
+                    <div id="perf">
                     <h5 id="landing-text">Welcome to Cincinnati!</h5>
                     <div id="landing-button">Learn More</div>
                     </div>
