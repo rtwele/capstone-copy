@@ -1,34 +1,49 @@
 import React from 'react'
-import Footer from '../components/Footer'
+import FooterHome from '../components/FooterHome'
 // import holder2 from '../img/holder2.jpg'   
 import '../styles/About.css'
 import '../styles/index.css'
-import Holder1 from '../assets/holder1.jpg'
+
+import Jheadshot from '../assets/Jheadshot.jpg'
+import Sheadshot from '../assets/Sheadshot.jpg'
+import Rheadshot from '../assets/Rheadshot.JPG'
+import Nippert_new1 from '../assets/Nippert_new1.jpg'
 
 const About = () => {
 
     return (
         <div>
         <div className="moveDown"></div>
+       <div className="aboutcontainer">
         <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder " width="140" height="140"></img>
+          <img class="rounded-circle" src={Jheadshot} alt="Generic placeholder " width="140" height="140"></img>
           <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href=" " role="button">View details &raquo;</a></p>
+          
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder " width="140" height="140"></img>
+          <img class="rounded-circle" src={Sheadshot} alt="Generic placeholder " width="140" height="140"></img>
           <h2>Heading</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href=" " role="button">View details &raquo;</a></p>
+          
+        </div>
+        </div>
+        <div class="row">
+
+        <div class="col-lg-4">
+          <img class="rounded-circle" src={Rheadshot} alt="Generic placeholder " width="140" height="140"></img>
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          
         </div>
         <div class="col-lg-4">
           <img class="rounded-circle" src="data:/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder " width="140" height="140"></img>
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href=" " role="button">View details &raquo;</a></p>
+          
         </div>
+    </div>
     </div>
 
 
@@ -42,7 +57,7 @@ const About = () => {
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette- img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder "></img>
+          <img class="featurette- img-fluid mx-auto" data-src={Nippert_new1} alt="Generic placeholder "></img>
         </div>
       </div>
 
@@ -54,7 +69,7 @@ const About = () => {
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class="featurette- img-fluid mx-auto" src={Holder1} alt="Generic placeholder "></img>
+          <img class="featurette- img-fluid mx-auto" src='' alt="Generic placeholder "></img>
         </div>
       </div>
 
@@ -66,12 +81,12 @@ const About = () => {
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette- img-fluid mx-auto" src={Holder1}alt="Generic placeholder "></img>
+          <img class="featurette- img-fluid mx-auto" src='' alt="Generic placeholder "></img>
         </div>
       </div>
 
       <hr class="featurette-divider"></hr>
-     <Footer/>
+     <FooterHome/>
 
     </div>
 

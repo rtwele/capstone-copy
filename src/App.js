@@ -21,7 +21,7 @@ export default class App extends Component {
         <Navbar />
         <Route exact path='/' component={HomePage}/>
         <Route path='/about' component={About}/>
-        <Route path='/contact' component={Contact}/>
+        <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />
         {/* <Route component={NotFound}/> */}
       </Router>

@@ -1,8 +1,26 @@
 
-.holder2{
-    margin: 800px;
-    margin-right: 500px;
-    
+.aboutcontainer{
+    width: 80%;
+    margin: 0 auto;
 }
 
+.row{
+    width: 100%;
+    height: 500px;
+}
 
+.col-lg-4{
+    float: left;
+    width: 50%;
+
+
+}
+
+.col-md-7{
+    
+    height: 200px
+}
+
+.background{
+    background-image: url('https://unsplash.com/photos/e9cOBOBuXxE');
+}
