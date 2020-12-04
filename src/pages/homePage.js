@@ -2,8 +2,10 @@ import React, {Component} from 'react'
 import Cards from '../components/Cards';
 import { HeroSection } from '../components/HeroSection'
 import FooterHome from '../components/FooterHome'
+import { Link } from 'react-scroll'
 
  class HomePage extends Component {
+
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
         document.getElementsByClassName('nav')[0].classList.add('make-transparent');
@@ -29,12 +31,14 @@ import FooterHome from '../components/FooterHome'
                 <section className="home">
                     <div id="perf">
                     <h5 id="landing-text">Welcome to Cincinnati!</h5>
-                    <div id="landing-button">Learn More</div>
+                        <Link to='scroll-here' offset={-90} spy={true} smooth={true} duration={1000}>
+                           <div id="landing-button">Explore</div>
+                        </Link>
                     </div>
                 </section>
-
-                <div>
-                    <h2 className="myH2">Welcome to Cincinnati, Ohio!!</h2>
+                <div></div>
+                <div id="scroll-here" class="welcome-paragraph">
+                    <h2 className="myH2">Our History</h2>
                     <p className="myP"> 
                         Settled in 1788, the city is located at the northern side of the confluence of the Licking and Ohio rivers, the latter of which marks the state line with Kentucky. 
                         The city is the economic and cultural hub of the Cincinnati metropolitan area, the fastest growing economic power in the Midwestern United States based on increase of economic output,
@@ -45,7 +49,7 @@ import FooterHome from '../components/FooterHome'
                     </p>
                 </div>
 
-                <Cards />
+                <div><Cards /></div>
                 <HeroSection />
 
                 <FooterHome />
