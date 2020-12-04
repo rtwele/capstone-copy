@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Footer from '../components/Footer'
+import FooterHome from '../components/FooterHome'
 import '../styles/contact.css'
 
 export default class contact extends Component {
@@ -60,7 +60,7 @@ export default class contact extends Component {
           <div className="containerContact">
             <div className="contentContact">
             <form onSubmit={this.onSubmit}>
-              <div className="form-group">
+              <div className="form-group" id="contact">
                 <label>Name: </label>
                 <input
                   type="text"
@@ -106,7 +106,7 @@ export default class contact extends Component {
             </div>
           </div>
       </div>
-      <Footer />
+      <FooterHome />
       </div>
     )
   }

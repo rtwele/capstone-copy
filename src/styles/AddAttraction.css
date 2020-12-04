@@ -1,9 +1,11 @@
-.containerAddPage {        
+div .containerAddPage {        
     margin-top: 12vh;
-    margin-bottom: 5vh;
-    background-image: url('../assets/cincinnati.jpg');
-    background-repeat: no-repeat;
-    background-image: cover;
+    /* margin-bottom: 5vh; */
+    background-image: url('../assets/nightTime.jpg');
+    background-repeat: round;
+    /* background-image: cover; */
+    width: 100%;
+    height: auto;
 }
 .nav {
     z-index: 1;
@@ -11,10 +13,11 @@
 form {
     /* z-index: -1;  */
     margin-top: 0;
-    background-color: lightseagreen;
+    background-color: rgba(241, 13, 241, 0.61);
     justify-content: center;
     align-items: center;
     color: white;
+    /* opacity: 0.75; */
 }
 
 input{
@@ -25,9 +28,10 @@ label {
     font-size: 30px;
 }
 
-h2 {
+h2 .text-center {
     font-size: 50px;
     text-emphasis: bold;
+    color: white;
 }
 
 .form-group {

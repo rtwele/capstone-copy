@@ -86,18 +86,20 @@ body {
     margin-top: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
+
 .contactContainerReturn {
     margin-top: 10vh;
 }
->>>>>>> 60e54bba71a7068cdf0f768190fbf9df442b3b0b
-=======
-.contactContainerReturn {
+
+div .contactContainerReturn {
     margin-top: 10vh;
+ 
 }
->>>>>>> 18d6d286dc4a997ca159ac0577e35e8e047d6818
+
+div .contentContact {
+    margin-bottom: 10vh;
+}
 
 /* Media qurey section */
 
@@ -402,4 +404,10 @@ body {
     letter-spacing: 2px;
   }
 
-
+  div .contactContainerReturn {
+    margin-top: 10vh;
+    background-image: url('../assets/mtAdams.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
