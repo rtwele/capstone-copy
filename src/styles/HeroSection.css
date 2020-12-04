@@ -16,11 +16,7 @@ video {
     align-items: center;
     /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     object-fit: contain;
-<<<<<<< HEAD
     margin-top: 15rem;
-=======
-    /* margin-top: 15rem; */
->>>>>>> 18d6d286dc4a997ca159ac0577e35e8e047d6818
   }
   
   .hero-container > h1 {
