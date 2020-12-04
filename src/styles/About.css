@@ -18,9 +18,26 @@
 
 .col-md-7{
     
-    height: 200px
+     /* width: 100px  */
 }
 
-body{
-    background-image: url('https://unsplash.com/photos/e9cOBOBuXxE');
+#wholepage{
+    background-image: url("../assets/holder1.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
+
+.grip{
+    margin-left: 800px;
+}
+
+.grip2{
+    margin-right: 900px;
+    margin-top: -200px;
+}
+
+.sub{
+    color: red;
+}
+

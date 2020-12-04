@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import FooterHome from '../components/FooterHome'
-import '../styles/contact.css'
+import '../styles/Contact.css'
 
 export default class contact extends Component {
   constructor (props){
