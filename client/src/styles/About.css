@@ -2,7 +2,9 @@
 .aboutcontainer{
     width: 80%;
     margin: 0 auto;
+border-style: groove;
 }
+
 
 .row{
     width: 100%;
@@ -18,9 +20,31 @@
 
 .col-md-7{
     
-    height: 200px
+     /* width: 100px  */
 }
 
-.background{
-    background-image: url('https://unsplash.com/photos/e9cOBOBuXxE');
+#wholepage{
+    background-image: url('../assets/holder1.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.grip{
+    margin-left: 800px;
+}
+
+.grip2{
+    margin-right: 900px;
+    margin-top: -200px;
+}
+
+.sub{
+    color: rgb(35, 158, 240);
+}
+
+div .col-lg-4 img{
+    border: 3px solid rgb(30, 183, 243);
+    border-radius: 50%;
+    
 }
