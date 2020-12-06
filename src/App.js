@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 // Page & Component Imports
 import Navbar from './components/Navbar'
-import HomePage from './pages/HomePage'
+import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 // import NotFound from './pages/NotFound';
@@ -19,7 +19,7 @@ export default class App extends Component {
     <div className="App">
       <Router>
         <Navbar />
-        <Route exact path='/' component={HomePage}/>
+        <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />

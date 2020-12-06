@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -38,7 +39,7 @@ export default class Cards extends Component {
                                 <ul className="photos">
                                     <li>
                                         <div id="arts" className="card">
-                                            <div className="card-button">Arts</div>
+                                            <Link to='/about'><div className="card-button">Arts</div></Link>
                                         </div>
                                     </li>
                                     <li>
