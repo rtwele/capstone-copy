@@ -24,7 +24,7 @@ border-style: groove;
 }
 
 #wholepage{
-    background-image: url("../assets/holder1.jpg");
+    background-image: url('../assets/holder1.jpg');
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -40,11 +40,11 @@ border-style: groove;
 }
 
 .sub{
-    color: red;
+    color: rgb(35, 158, 240);
 }
 
 div .col-lg-4 img{
-    border: 3px groove red;
+    border: 3px solid rgb(30, 183, 243);
     border-radius: 50%;
     
 }
