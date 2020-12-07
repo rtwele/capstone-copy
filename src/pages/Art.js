@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/Art.css'
+import FooterHome from '../components/FooterHome'
 
 class Art extends Component {
   render() {
@@ -77,6 +78,8 @@ class ArtCards extends Component {
          stars='4.5/5 stars'
          btn='Visit Website' />
      </div>
+     <FooterHome />
+
      </>
     )
   }
