@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import FooterHome from '../components/FooterHome';
 import '../styles/AddAttraction.css';
-
-
+import {BACKEND_URL} from '../config'
 
 export default class AddAttraction extends Component {
     constructor (props) {
@@ -112,9 +111,10 @@ export default class AddAttraction extends Component {
             childFriendly: this.state.childFriendly
         }
         console.log(attraction)
-        axios.post('http://localhost:5000/attractions/add', attraction)
+        axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
-        window.location='/viewattractions'
+        // window.location='/viewattractions'
+        this.history.push('/viewattractions');
         console.log(attraction)
     };
     render() {
