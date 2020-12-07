@@ -12,7 +12,7 @@ import Art from './pages/Art'
 
 // styles
 import './styles/App.css';
-import './styles/homePage.css';
+import './styles/homepage.css';
 
 export default class App extends Component {
   render() {
