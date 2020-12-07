@@ -1,20 +1,24 @@
 {
-  "name": "capstone",
-  "version": "0.1.0",
-  "private": true,
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client": "cd client && npm start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-regular-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.13",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.2.2",
-    "axios": "^0.21.0",
-    "bootstrap": "^4.5.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "i": "^0.3.6",
     "jquery": "^3.5.1",
     "mongoose": "^5.10.19",
@@ -50,5 +54,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+    "mongoose": "^5.11.4",
+    "path": "^0.12.7",
+    "popper": "^1.0.1"
+>>>>>>> 0367cd09971954921f56e27e2fd71bc4cd5cd74d
   }
 }
