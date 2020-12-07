@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FooterHome from '../components/FooterHome'
-import '../styles/AddAttraction.css'
+import FooterHome from '../components/FooterHome';
+import '../styles/AddAttraction.css';
+
 
 
 export default class AddAttraction extends Component {
@@ -120,7 +121,7 @@ export default class AddAttraction extends Component {
         return(
             <div>
                 <div className='containerAddPage'>
-                    <h2 className='text-center'>Add a New Attraction</h2>
+                    <h2 className='text-center' id="header-text">Add a New Attraction</h2>
                     <form className='add' onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label>Name: </label>
@@ -193,9 +194,9 @@ export default class AddAttraction extends Component {
                             <label>Child Friendly: </label>
                             <div className="select-style">
                             <select required 
-                            className='form-control'
-                            onChange={this.onChange}>
-                                <option className='dropdown' value=''>Select</option>
+                            className='form-control move '
+                            onChange={this.onChangeChild}>
+                                <option id="marginL" value=''>Select</option>
                                 <option value='1'>Child Friendly</option>
                                 <option value='0'>21 and over</option>
                             </select>

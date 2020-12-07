@@ -367,10 +367,10 @@ div .contentContact {
     background: grey;
   }
 h3.text-center{
-    color:orange;
+    color: rgb(56, 182, 224);
     font-size: 50px;
     margin-bottom: 5vh;
-
+    text-shadow: 3px 3px 3px yellow;
 }
 form{
     width: 360px;
@@ -378,7 +378,7 @@ form{
     margin-right: auto;
     margin-top: 0;
     padding: 30px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
     border-radius: 10px;
     position: relative;
   }
@@ -392,6 +392,8 @@ form{
   label{
     display: block;
     margin: 20px 0 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
   }
   .btn-contact {
     font-size: 20px;
@@ -400,6 +402,8 @@ form{
     margin-top: 5px;
     text-transform: uppercase;
     border-radius: 36px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
   }
 
   .btn-contact:hover {

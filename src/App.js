@@ -8,6 +8,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 // import NotFound from './pages/NotFound';
 import AddAttraction from './pages/AddAttraction'
+import Attraction from './pages/Attractions'
+import SingleAttraction from './pages/SingleAttraction'
 
 // styles
 import './styles/App.css';
@@ -23,6 +25,8 @@ export default class App extends Component {
         <Route path='/about' component={About}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />
+        <Route path='/viewattractions' component={Attraction} />
+        <Route path='/singleattraction' component={SingleAttraction} />          
         {/* <Route component={NotFound}/> */}
       </Router>
     </div>

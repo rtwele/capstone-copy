@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import FooterHome from '../components/FooterHome'
-import '../styles/contact.css'
+import '../styles/Contact.css'
 
 export default class contact extends Component {
   constructor (props){
@@ -44,12 +44,15 @@ export default class contact extends Component {
     .then(res=>console.log(res.data));
     //window.location="/"
     
+
     this.setState({
         name: '',
         email: '',
         comment: ''
     })
+
     window.alert('Thank you for your inquiry')
+    this.props.history.push('/')
     console.log(contact)
   }
   render() {
