@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import AddAttraction from './pages/AddAttraction'
 import Art from './pages/Art'
 import Sport from './pages/Sport'
+import Attractions from './pages/Attractions'
 
 
 // styles
@@ -26,6 +27,7 @@ export default class App extends Component {
         <Route path='/about' component={About}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />
+        <Route path='/viewattractions' component={Attractions} />
         <Route path='/Art' component={Art} />
         <Route path='/Sport' component={Sport} />
 
