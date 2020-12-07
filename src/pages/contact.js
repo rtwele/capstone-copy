@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FooterHome from '../components/FooterHome'
-import '../styles/Contact.css'
+import Footer from '../components/Footer'
+import '../styles/contact.css'
 
 export default class contact extends Component {
   constructor (props){
@@ -44,15 +44,12 @@ export default class contact extends Component {
     .then(res=>console.log(res.data));
     //window.location="/"
     
-
     this.setState({
         name: '',
         email: '',
         comment: ''
     })
-
     window.alert('Thank you for your inquiry')
-    this.props.history.push('/')
     console.log(contact)
   }
   render() {
@@ -62,8 +59,8 @@ export default class contact extends Component {
           <h3 className='text-center'>Contact Us</h3>
           <div className="containerContact">
             <div className="contentContact">
-            <form className="contact" onSubmit={this.onSubmit}>
-              <div className="form-group" id="contact">
+            <form onSubmit={this.onSubmit}>
+              <div className="form-group">
                 <label>Name: </label>
                 <input
                   type="text"
@@ -100,7 +97,7 @@ export default class contact extends Component {
                   <input
                   type="submit"
                   value="Send"
-                  className="btn-contact"
+                  className="btn btn-primary"
                   />
               </div>
             </form>
@@ -109,7 +106,7 @@ export default class contact extends Component {
             </div>
           </div>
       </div>
-      <FooterHome />
+      <Footer />
       </div>
     )
   }
