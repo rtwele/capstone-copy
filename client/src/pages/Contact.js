@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Footer from '../components/Footer'
+import FooterHome from '../components/FooterHome'
 import '../styles/contact.css'
 
 export default class contact extends Component {
@@ -43,6 +43,7 @@ export default class contact extends Component {
     axios.post('http://localhost:5000/contact/add', contact)
     .then(res=>console.log(res.data));
     //window.location="/"
+    this.history.push('/');
     
     this.setState({
         name: '',
@@ -106,7 +107,7 @@ export default class contact extends Component {
             </div>
           </div>
       </div>
-      <Footer />
+      <FooterHome />
       </div>
     )
   }

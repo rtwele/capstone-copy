@@ -52,7 +52,7 @@ export default class Attractions extends Component {
     render() {
         return (
             <div className='attractionsContainer'>
-                <h3 className='text-center attractionsHeader'>Attractions</h3>
+                <h2 className='text-center attractionsHeader'>Attractions</h2>
                 <div className='attractionsInnerContainer'>
                     {this.attractionsList()}
                 </div>
