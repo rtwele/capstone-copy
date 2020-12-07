@@ -1,9 +1,5 @@
 import React, {Component} from 'react'
-<<<<<<< HEAD:src/components/Cards.js
-import {Link} from 'react-router-dom'
-=======
 import { Link } from 'react-router-dom'
->>>>>>> 9de33acabc4c4fb8e716f012ee1d4feff06e9e05:client/src/components/Cards.js
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -44,11 +40,7 @@ export default class Cards extends Component {
                                 <ul className="photos">
                                     <li>
                                         <div id="arts" className="card">
-<<<<<<< HEAD:src/components/Cards.js
-                                        <Link to='/Art'><div className="card-button">Arts</div></Link>
-=======
-                                            <Link to='/about'><div className="card-button">Arts</div></Link>
->>>>>>> 9de33acabc4c4fb8e716f012ee1d4feff06e9e05:client/src/components/Cards.js
+                                            <Link to='/Art'><div className="card-button">Arts</div></Link>
                                         </div>
                                     </li>
                                     <li>
