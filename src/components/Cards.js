@@ -45,7 +45,7 @@ export default class Cards extends Component {
                                     </li>
                                     <li>
                                         <div id="sports" className="card">
-                                            <div className="card-button">Sports</div>
+                                        <Link to='/Sport'><div className="card-button">Sports</div></Link>
                                         </div>
                                     </li>
                                     <li>
