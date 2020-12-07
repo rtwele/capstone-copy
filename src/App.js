@@ -8,7 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 // import NotFound from './pages/NotFound';
 import AddAttraction from './pages/AddAttraction'
-import Card from './pages/Art'
+import Art from './pages/Art'
 
 // styles
 import './styles/App.css';
@@ -24,6 +24,7 @@ export default class App extends Component {
         <Route path='/about' component={About}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/addattraction' component={AddAttraction} />
+        <Route path='/Art' component={Art} />
         {/* <Route component={NotFound}/> */}
       </Router>
     </div>
