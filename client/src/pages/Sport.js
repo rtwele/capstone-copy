@@ -30,7 +30,7 @@ class SportCards extends Component {
       <div class="header">
       <div className="sport-banner">
        </div>
-        <h1></h1>
+        <h1>Sports</h1>
         <h3></h3>
       </div>
       <div className='cards'>

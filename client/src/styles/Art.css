@@ -34,6 +34,7 @@ body {
 .art-card img {
   position: relative;
   height: 350px;
+  width: 500px;
   float: left;
 }
 
@@ -85,3 +86,11 @@ body {
   transform: scale(1.03);
 }
 
+.cards {
+  margin-bottom: 15rem;
+}
+
+h1 {
+  font-size: 30pt;
+  padding: 5rem;
+}
