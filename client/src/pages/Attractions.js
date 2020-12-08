@@ -8,12 +8,12 @@ const Attraction = (props) => {
         <div>
             <div className='attractionsCard'>
                 <div className='cardImage'>
-                    <img src={props.attraction.imageURL} alt='Union Terminal' />
+                    <img src={props.attraction.imageURL} alt='attraction picture' />
                 </div>
                 <div>
                     <div className='text-center'>{props.attraction.name}</div>
                     <div className='text-center'>
-                        <Link className='text-center text-dark' to={"/singleattraction/" + props.attraction._id}>Details</Link>
+                        <Link className='text-center text-dark' Link to={"/singleattraction/" + props.attraction._id}>Details</Link>
                     </div>
                     <div className='text-center'>
                         <a className='text-dark' href={props.attraction.website}>Website</a>
@@ -52,7 +52,7 @@ export default class Attractions extends Component {
     render() {
         return (
             <div className='attractionsContainer'>
-                <h3 className='text-center attractionsHeader'>Attractions</h3>
+                <h2 className='text-center attractionsHeader'>Attractions</h2>
                 <div className='attractionsInnerContainer'>
                     {this.attractionsList()}
                 </div>

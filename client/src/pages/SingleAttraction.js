@@ -51,7 +51,7 @@ export default class SingleAttraction extends Component {
                     <div className='singleName'>
                         {this.state.name}
                     </div>
-                    <img className='singleImage' src={this.state.imageURL} alt='Union Terminal' />
+                    <img className='singleImage' src={this.state.imageURL} alt='' />
                     <div className='singleAddress'>
                         <p>Address:</p>
                         <div className='text-single-address'>
