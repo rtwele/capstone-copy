@@ -14,6 +14,7 @@ import Food from './pages/Food'
 import Entertainment from './pages/Entertainment'
 import Tour from './pages/Tour'
 import Attractions from './pages/Attractions'
+import SingleAttraction from './pages/SingleAttraction'
 
 
 
@@ -34,12 +35,13 @@ export default class App extends Component {
         <Route path='/about' component={About}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/Addattraction' component={AddAttraction} />
-        <Route path='/Attractions' component={Attractions} />
+        <Route path='/viewattractions' component={Attractions} />
         <Route path='/Art' component={Art} />
         <Route path='/Sport' component={Sport} />
         <Route path='/Food' component={Food} />
         <Route path='/Entertainment' component={Entertainment} />
         <Route path='/Tour' component={Tour} />
+        <Route path='/attractions/:id' component={SingleAttraction} />
 
         {/* <Route component={NotFound}/> */}
       </Router>

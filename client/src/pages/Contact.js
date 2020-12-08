@@ -42,8 +42,8 @@ export default class contact extends Component {
     console.log(contact)
     axios.post('http://localhost:5000/contact/add', contact)
     .then(res=>console.log(res.data));
-    //window.location="/"
-    this.history.push('/');
+    // window.location="/"
+    this.props.history.push('/');
     
     this.setState({
         name: '',
@@ -60,7 +60,7 @@ export default class contact extends Component {
           <h3 className='text-center'>Contact Us</h3>
           <div className="containerContact">
             <div className="contentContact">
-            <form onSubmit={this.onSubmit}>
+            <form id='contact-form' onSubmit={this.onSubmit}>
               <div className="form-group">
                 <label>Name: </label>
                 <input
