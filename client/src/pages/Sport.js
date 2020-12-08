@@ -10,7 +10,7 @@ class Sport extends Component {
     
         <div className="sport-card">
           <div className="card-body">
-            <img src={this.props.img}/>
+            <img alt="" src={this.props.img}/>
             <h2 className="sport-h2">{this.props.title}</h2>
             <p className="sport-p">{this.props.paragraph}.</p>
             <h5 className="sport-h5">{this.props.stars}</h5>
@@ -30,8 +30,8 @@ class SportCards extends Component {
       <div class="header">
       <div className="sport-banner">
        </div>
-        <h1></h1>
-        <h3></h3>
+        {/* <h1></h1>
+        <h3></h3> */}
       </div>
       <div className='cards'>
         <Sport

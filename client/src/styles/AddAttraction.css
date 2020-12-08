@@ -1,9 +1,10 @@
 div .containerAddPage {        
-    margin-top: 12vh;
+    margin-top: 90px;
     /* margin-bottom: 5vh; */
     background-image: url('../assets/nightTime.jpg');
-    background-repeat: round;
-    /* background-image: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: auto;
     padding-bottom: 10vh;

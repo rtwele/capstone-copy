@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import FooterHome from '../components/FooterHome'
+import Footer from '../components/Footer'
 import '../styles/contact.css'
 
 export default class contact extends Component {
@@ -107,7 +107,7 @@ export default class contact extends Component {
             </div>
           </div>
       </div>
-      <FooterHome />
+      <Footer />
       </div>
     )
   }
