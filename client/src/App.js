@@ -13,6 +13,8 @@ import Sport from './pages/Sport'
 import Food from './pages/Food'
 import Entertainment from './pages/Entertainment'
 import Tour from './pages/Tour'
+import Attractions from './pages/Attractions'
+
 
 
 
