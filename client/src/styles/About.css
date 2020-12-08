@@ -3,9 +3,17 @@
     width: 80%;
     margin: 0 auto;
 border-style: groove;
+/* 
+background-image: url('../assets/holder1.jpg');
+background-size: cover ;
+background-repeat: no-repeat;
+background-position: fixed; */
 }
-
-
+#root{
+    background-image: url('../assets/holder1.jpg');
+ background-size: cover ;
+    overflow: visible;
+}
 .row{
     width: 100%;
     height: 350px;
@@ -24,19 +32,21 @@ border-style: groove;
 }
 
 #wholepage{
-    background-image: url('../assets/holder1.jpg');
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-position: fixed;
+    background-image: url('../assets/holder2.jpg');
+    background-size: cover;
 }
 
 .grip{
-    margin-left: 800px;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: auto;
 }
 
 .grip2{
-    margin-right: 900px;
-    margin-top: -200px;
+     margin-right: 600px; 
+      margin-top: -1000px;  
+     margin-left: 200px;
+     
 }
 
 .sub{
@@ -48,3 +58,12 @@ div .col-lg-4 img{
     border-radius: 50%;
     
 }
+
+.discription{
+    font-size: large;
+}
+
+.lead{
+    font-size: medium;
+}
+
