@@ -11,6 +11,7 @@ import AddAttraction from './pages/AddAttraction'
 import Art from './pages/Art'
 import Sport from './pages/Sport'
 import Attractions from './pages/Attractions'
+import SingleAttraction from './pages/SingleAttraction'
 
 
 // styles
@@ -30,6 +31,7 @@ export default class App extends Component {
         <Route path='/viewattractions' component={Attractions} />
         <Route path='/Art' component={Art} />
         <Route path='/Sport' component={Sport} />
+        <Route path='/attractions/:id' exact component={SingleAttraction} />
 
         {/* <Route component={NotFound}/> */}
       </Router>

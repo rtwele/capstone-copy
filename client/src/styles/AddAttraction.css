@@ -47,16 +47,18 @@ input .form-control {
     position: relative;
 }
 
-.btn {
+.btn-add {
     font-size: 20px;
     background-color:lightskyblue;
     color: white;
     margin-top: 5px;
     text-transform: uppercase;
+    border-radius: 36px;
+    cursor: pointer;
     box-shadow: 5px 5px 5px black;
 }
 
-.btn:hover {
+.btn-add:hover {
     transform: scale(0.9);
 }
 

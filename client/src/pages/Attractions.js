@@ -2,21 +2,24 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 // import Card from 'react-bootstrap/Card';
+import {BACKEND_URL} from '../config'
+import '../styles/Attractions.css'
+import FooterHome from '../components/FooterHome'
 
 const Attraction = (props) => {
     return (
-        <div>
+        <div className='allAttractions'>
             <div className='attractionsCard'>
                 <div className='cardImage'>
                     <img src={props.attraction.imageURL} alt='attraction picture' />
                 </div>
                 <div>
-                    <div className='text-center'>{props.attraction.name}</div>
-                    <div className='text-center'>
-                        <Link className='text-center text-dark' Link to={"/singleattraction/" + props.attraction._id}>Details</Link>
+                    <div className='text-name'>{props.attraction.name}</div>
+                    <div className='text-link'>
+                        <Link className='link' Link to={"attractions/" + props.attraction._id}>Details</Link>
                     </div>
-                    <div className='text-center'>
-                        <a className='text-dark' href={props.attraction.website}>Website</a>
+                    <div className='website'>
+                        <a className='link-site' href={props.attraction.website}>Website</a>
                     </div>
                 </div>
             </div>
@@ -32,7 +35,7 @@ export default class Attractions extends Component {
         };
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/attractions/')
+        axios.get(BACKEND_URL + 'attractions/')
         .then(response => {
             this.setState({
                 attractions: response.data
@@ -51,12 +54,16 @@ export default class Attractions extends Component {
 
     render() {
         return (
+            <div>
             <div className='attractionsContainer'>
-                <h2 className='text-center attractionsHeader'>Attractions</h2>
+                <h2 className='attractionsHeader'>Attractions</h2>
                 <div className='attractionsInnerContainer'>
                     {this.attractionsList()}
                 </div>
             </div>
+            <FooterHome />
+            </div>
+            
         )
     }
 }

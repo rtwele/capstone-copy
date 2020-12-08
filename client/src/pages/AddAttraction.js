@@ -113,8 +113,8 @@ export default class AddAttraction extends Component {
         console.log(attraction)
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
-        // window.location='/viewattractions'
-        this.history.push('/viewattractions');
+        window.location='/viewattractions'
+        // this.history.push('/viewattractions');
         console.log(attraction)
     };
     render() {
@@ -203,7 +203,7 @@ export default class AddAttraction extends Component {
                         </div>
                         </div>
                         <div className='form-group'>
-                            <input type='submit' value="Add Attraction" className="btn" />
+                            <input type='submit' value="Add Attraction" className="btn-add" />
                         </div>
                     </form>
                 </div>

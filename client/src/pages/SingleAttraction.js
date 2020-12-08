@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
+// import Attractions from './Attractions';
+
 
 export default class SingleAttraction extends Component {
     constructor(props) {
