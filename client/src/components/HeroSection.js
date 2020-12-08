@@ -11,10 +11,10 @@ export const HeroSection = () => {
       <div className='hero-btns'>
         <Button
           className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+          buttonStyle='btn--test'
+          buttonSize='btn--medium'
         >
-          Placeholder link
+        Tours Here
         </Button>
       
       </div>

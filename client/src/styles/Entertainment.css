@@ -1,7 +1,8 @@
+html,
 body {
-    background: hsla(210, 20%, 90%, 1);
-  
-  }
+    background: #E0E6EB!important;
+   
+}
   
   .entertainment-banner {
     background-image: url("../img/island.jpg");

@@ -363,14 +363,24 @@ div .contentContact {
 }
 
 .btn{
-    border-radius: 36px;
-    background: grey;
+    font-size: 26px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.97);
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
+    margin-top: 2rem;
+    font-family: "Quicksand", sans-serif;
   }
+  
 h3.text-center{
-    color: rgb(56, 182, 224);
+    color:  #303841;
     font-size: 50px;
     margin-bottom: 5vh;
-    text-shadow: 3px 3px 3px yellow;
+    text-shadow: 3px 3px 3px white;
+    padding-top: 5rem;
+    
 }
 form{
     width: 360px;
@@ -396,26 +406,27 @@ form{
     text-shadow: 2px 2px 2px black;
   }
   .btn-contact {
-    font-size: 20px;
-    background-color: lightskyblue;
+    font-size: 26px;
     color: white;
-    margin-top: 5px;
-    text-transform: uppercase;
-    border-radius: 36px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px gray;
+    background-color: #303841;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
   }
+
+ 
 
   .btn-contact:hover {
       transform: scale(0.9);
   }
 
   div .contactContainerReturn {
-    margin-top: 12vh;
     background-image: url('../assets/mtAdams.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 textarea.form-control {
@@ -427,5 +438,5 @@ textarea.form-control {
 }
 
 form {
-    background-color: rgba(173, 216, 230, 0.815);
+    background-color: #00ADB5;
 }

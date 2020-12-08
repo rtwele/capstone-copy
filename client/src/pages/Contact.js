@@ -98,7 +98,7 @@ export default class contact extends Component {
                   <input
                   type="submit"
                   value="Send"
-                  className="btn btn-primary"
+                  className="btn btn-contact"
                   />
               </div>
             </form>

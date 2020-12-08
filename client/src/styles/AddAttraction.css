@@ -1,6 +1,4 @@
 div .containerAddPage {        
-    margin-top: 12vh;
-    /* margin-bottom: 5vh; */
     background-image: url('../assets/nightTime.jpg');
     background-repeat: round;
     /* background-image: cover; */
@@ -13,7 +11,7 @@ div .containerAddPage {
 }
 form.add {
     margin-top: 10vh;
-    background-color: rgba(241, 13, 241, 0.61);
+    background-color: #00ADB5;
     justify-content: center;
     align-items: center;
     color: white;
@@ -33,7 +31,8 @@ h2#header-text {
     font-size: 50px;
     text-emphasis: bold;
     color: white;
-    text-shadow: 5px 5px 5px rgb(241, 13, 241);
+    text-shadow: 5px 5px 5px #00ADB5;
+    padding-top: 10rem;
 }
 
 .form-group {
@@ -47,14 +46,14 @@ input .form-control {
     position: relative;
 }
 
-.btn {
+/* .btn {
     font-size: 20px;
     background-color:lightskyblue;
     color: white;
     margin-top: 5px;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px black;
-}
+} */
 
 .btn:hover {
     transform: scale(0.9);
