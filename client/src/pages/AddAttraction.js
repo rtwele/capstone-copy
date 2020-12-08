@@ -114,6 +114,7 @@ class AddAttraction extends Component {
         console.log(BACKEND_URL + 'attractions/add', attraction)
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
+        // window.location='/viewattractions'
         this.props.history.push('/viewattractions');
         console.log(attraction)
     };
@@ -203,7 +204,7 @@ class AddAttraction extends Component {
                         </div>
                         </div>
                         <div className='form-group'>
-                            <input type='submit' value="Add Attraction" className="btn" />
+                            <input type='submit' value="Add Attraction" className="btn-add" />
                         </div>
                     </form>
                 </div>
