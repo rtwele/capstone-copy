@@ -90,6 +90,8 @@ body {
   h1 {
       font-size: 30pt;
       padding: 5rem;
+      text-shadow: 2px 2px white;
+
   }
   
  .cards {
