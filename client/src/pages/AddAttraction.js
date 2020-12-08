@@ -3,8 +3,9 @@ import axios from 'axios';
 import FooterHome from '../components/FooterHome';
 import '../styles/AddAttraction.css';
 import {BACKEND_URL} from '../config'
+import { withRouter } from 'react-router-dom'
 
-export default class AddAttraction extends Component {
+class AddAttraction extends Component {
     constructor (props) {
         super(props)
         this.onChangeName = this.onChangeName.bind(this);
@@ -110,11 +111,15 @@ export default class AddAttraction extends Component {
             indoors: this.state.indoors,
             childFriendly: this.state.childFriendly
         }
-        console.log(attraction)
+        console.log(BACKEND_URL + 'attractions/add', attraction)
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
+<<<<<<< HEAD
         window.location='/viewattractions'
         // this.history.push('/viewattractions');
+=======
+        this.props.history.push('/viewattractions');
+>>>>>>> b5379e6055280a17acf4754d2f088452a76caf63
         console.log(attraction)
     };
     render() {
@@ -212,3 +217,5 @@ export default class AddAttraction extends Component {
         )
     }
 }
+
+export default withRouter(AddAttraction)

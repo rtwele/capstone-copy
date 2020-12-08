@@ -10,7 +10,7 @@ class Art extends Component {
     
         <div className="art-card">
           <div className="card-body">
-            <img src={this.props.img}/>
+            <img alt="" src={this.props.img}/>
             <h2 className="art-h2">{this.props.title}</h2>
             <p className="art-p">{this.props.paragraph}.</p>
             <h5 className="art-h5">{this.props.stars}</h5>
@@ -30,7 +30,7 @@ class ArtCards extends Component {
       <div class="header">
       <div className="art-banner">
        </div>
-        <h1></h1>
+        <h1>Visual Arts & Culture</h1>
         <h3></h3>
       </div>
       <div className='cards'>
