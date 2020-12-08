@@ -30,7 +30,7 @@ class ArtCards extends Component {
       <div class="header">
       <div className="art-banner">
        </div>
-        <h1></h1>
+        <h1>Visual Arts & Culture</h1>
         <h3></h3>
       </div>
       <div className='cards'>

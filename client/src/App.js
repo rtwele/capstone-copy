@@ -10,6 +10,12 @@ import Contact from './pages/Contact'
 import AddAttraction from './pages/AddAttraction'
 import Art from './pages/Art'
 import Sport from './pages/Sport'
+import Food from './pages/Food'
+import Entertainment from './pages/Entertainment'
+import Tour from './pages/Tour'
+
+
+
 
 
 // styles
@@ -28,6 +34,9 @@ export default class App extends Component {
         <Route path='/addattraction' component={AddAttraction} />
         <Route path='/Art' component={Art} />
         <Route path='/Sport' component={Sport} />
+        <Route path='/Food' component={Food} />
+        <Route path='/Entertainment' component={Entertainment} />
+        <Route path='/Tour' component={Tour} />
 
         {/* <Route component={NotFound}/> */}
       </Router>

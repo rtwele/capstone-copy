@@ -50,22 +50,17 @@ export default class Cards extends Component {
                                     </li>
                                     <li>
                                         <div id="breweries" className="card">
-                                            <div className="card-button">Breweries</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div id="amusement" className="card">
-                                            <div className="card-button">Amusement Parks</div>
+                                        <Link to='/Food'><div className="card-button">Breweries/Food</div></Link>
                                         </div>
                                     </li>
                                     <li>
                                         <div id="animals" className="card">
-                                            <div className="card-button">Animals</div>
+                                        <Link to='/Entertainment'><div className="card-button">Entertainment</div></Link>
                                         </div>
                                     </li>
                                     <li>
                                         <div id="tours last-card" className="card">
-                                            <div className="card-button">Tours</div>
+                                        <Link to='/Tour'><div className="card-button">Tours</div></Link>
                                         </div>
                                     </li>
                                 </ul>
