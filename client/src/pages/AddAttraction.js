@@ -114,12 +114,8 @@ class AddAttraction extends Component {
         console.log(BACKEND_URL + 'attractions/add', attraction)
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
-<<<<<<< HEAD
-        window.location='/viewattractions'
-        // this.history.push('/viewattractions');
-=======
+        // window.location='/viewattractions'
         this.props.history.push('/viewattractions');
->>>>>>> b5379e6055280a17acf4754d2f088452a76caf63
         console.log(attraction)
     };
     render() {
