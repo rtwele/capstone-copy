@@ -3,7 +3,6 @@ import Cards from '../components/Cards';
 import { HeroSection } from '../components/HeroSection'
 import FooterHome from '../components/FooterHome'
 import { Link } from 'react-scroll'
-import Weather from '../pages/Weather'
 
 
  class Home extends Component {
@@ -52,7 +51,6 @@ import Weather from '../pages/Weather'
 
                 <Cards />
                 <HeroSection />
-                <Weather />
                 <FooterHome />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
                 <script src="js/scripts.js"></script>
