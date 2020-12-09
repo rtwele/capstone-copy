@@ -47,21 +47,24 @@ body {
 .footer {
   position: absolute;
   text-align: center;
-  background-color: #FF5722;
+  background-color: #C6011F;
   bottom: 0;
   width: 100%;
   height: 150px;
   overflow: hidden;
+  letter-spacing: 2.5px; 
+
 }
 
 .footer-home {
   text-align: center;
-  background-color: #FF5722;
+  background-color: #C6011F;
   color: white;
   bottom: 0;
   width: 100%;
   height: 400px;
   overflow: hidden;
+  letter-spacing: 2.5px; 
 
 }
 .footer-info {

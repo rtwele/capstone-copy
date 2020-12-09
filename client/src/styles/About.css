@@ -3,9 +3,17 @@
     width: 80%;
     margin: 0 auto;
 border-style: groove;
+/* 
+background-image: url('../assets/holder1.jpg');
+background-size: cover ;
+background-repeat: no-repeat;
+background-position: fixed; */
 }
-
-
+.background{
+    background-image: url('../assets/holder1.jpg');
+ /* background-size: cover ; */
+    overflow: visible;
+}
 .row{
     width: 100%;
     height: 350px;
@@ -18,33 +26,59 @@ border-style: groove;
 
 }
 
-.col-md-7{
+/* .col-md-7{
     
      /* width: 100px  */
-}
+ */
 
 #wholepage{
-    background-image: url('../assets/holder1.jpg');
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-position: fixed;
+    background-image: url('../assets/holder2.jpg');
+    background-size: cover;
 }
 
 .grip{
-    margin-left: 800px;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    border-style: solid
 }
 
 .grip2{
-    margin-right: 900px;
-    margin-top: -200px;
+     margin-right: 600px; 
+      margin-top: -1000px;  
+     margin-left: 200px;
+     border-style: solid
+     
 }
 
 .sub{
     color: rgb(35, 158, 240);
+    position: relative;
+    bottom: 300px;
 }
 
 div .col-lg-4 img{
     border: 3px solid rgb(30, 183, 243);
     border-radius: 50%;
     
+}
+
+.discription{
+    font-size: large;
+}
+
+.lead{
+    font-size: medium;
+}
+
+.action{
+    border-radius: 90%;
+   position: relative;
+    bottom: 10px;
+}
+
+.doom{
+    position: relative;
+    bottom: 300px;
+
 }

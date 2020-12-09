@@ -10,7 +10,7 @@ class Sport extends Component {
     
         <div className="sport-card">
           <div className="card-body">
-            <img alt="" src={this.props.img}/>
+            <img alt=" " src={this.props.img}/>
             <h2 className="sport-h2">{this.props.title}</h2>
             <p className="sport-p">{this.props.paragraph}.</p>
             <h5 className="sport-h5">{this.props.stars}</h5>
@@ -34,7 +34,7 @@ class SportCards extends Component {
         <h3></h3>
       </div>
       <div className='cards'>
-        <Sport 
+        <Sport
          img='https://cincinnatiusa.com/sites/default/files/styles/Array/public/Reds-Ballpark_DSC_0127.jpg'
          title='Cincinnati Reds'
          paragraph='Located on the winding banks of the Ohio River, Great American Ball Park is the home of the Cincinnati Reds and is praised for innovative features, breathtaking views and affordable seating options. Great American Ball Park also celebrates the team’s rich history with the Reds Hall of Fame and Museum and award-winning Team Shop plus get an up close look at things on the Scotts Ballpark Tour'
