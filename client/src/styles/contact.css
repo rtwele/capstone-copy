@@ -366,12 +366,12 @@ div .contentContact {
 .btn{
     font-size: 26px;
     color: white;
-    background-color: rgba(24, 24, 24, 0.97);
+    background-color: #303841;
     width: 200px;
     height: 60px;
     line-height: 60px;
     transition-duration: 0.5s;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-family: "Quicksand", sans-serif;
   }
   
@@ -381,7 +381,7 @@ h3.text-center{
     margin-top: 0;
     margin-bottom: 5vh;
     text-shadow: 3px 3px 3px white;
-    padding-top: 5rem;
+    padding-top: 6rem;
     
 }
 form{
@@ -393,6 +393,7 @@ form{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
     border-radius: 10px;
     position: relative;
+    
   }
   input{
     padding: 10px 12px;
@@ -428,8 +429,8 @@ form{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
+
 
 textarea.form-control {
     padding: 10px 12px;

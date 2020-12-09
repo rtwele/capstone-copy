@@ -11,7 +11,7 @@ const Attraction = (props) => {
         <div className='allAttractions'>
             <div className='attractionsCard'>
                 <div className='cardImage'>
-                    <img className='attractionImage' src={props.attraction.imageURL} alt='attraction picture' />
+                    <img className='attractionImage'src={props.attraction.imageURL} alt='attraction picture' />
                 </div>
                 <div>
                     <div className='text-name'>{props.attraction.name}</div>
@@ -54,7 +54,7 @@ export default class Attractions extends Component {
 
     render() {
         return (
-            <div>
+            <div className='row'>
             <div className='attractionsContainer'>
                 <h2 className='attractionsHeader'>Attractions</h2>
                 <div className='attractionsInnerContainer'>
