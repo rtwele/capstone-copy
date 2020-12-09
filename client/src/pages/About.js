@@ -73,7 +73,7 @@ const About = () => {
           <p class="lead"> </p>
         </div>
         <div class="col-md-5 order-md-1" >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166499.14050380012!2d-84.62152039172686!3d39.156970071885816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH!5e0!3m2!1sen!2sus!4v1607461277924!5m2!1sen!2sus" width="700" height="360" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166499.14050380012!2d-84.62152039172686!3d39.156970071885816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH!5e0!3m2!1sen!2sus!4v1607461277924!5m2!1sen!2sus" width="700" height="280" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
         </div>
       </div>
 
