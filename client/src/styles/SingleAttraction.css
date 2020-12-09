@@ -49,3 +49,7 @@
     font-size: 20px;
     color: black;
 }
+.loading-spinner {
+    text-align: center;
+    margin-top: 400px;
+}

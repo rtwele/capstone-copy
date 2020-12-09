@@ -1,5 +1,5 @@
 .attractionsCard {
-    width: 39vw;
+    width: 600px;
     margin-left: 5vw;
     display: flex;
     flex-direction: column;
@@ -45,14 +45,40 @@
 
 .link-details:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 .link-site:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 .attractionsInnerContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:700px) {
+    .attractionsHeader{
+        font-size: 45px;
+    }
+
+    .text-name {
+        font-size: 20px;
+    }
+
+    .link-details {
+        font-size: 20px;
+    }
+
+    .link-site {
+        font-size: 20px;
+    }
+
+    .attractionsCard {
+        width: 500px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }

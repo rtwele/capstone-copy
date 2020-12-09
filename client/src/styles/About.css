@@ -11,7 +11,7 @@ background-position: fixed; */
 }
 .background{
     background-image: url('../assets/holder1.jpg');
- /* background-size: cover ; */
+ background-size: cover ;
     overflow: visible;
 }
 .row{
@@ -36,20 +36,15 @@ background-position: fixed; */
     background-size: cover;
 }
 
-.grip{
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-bottom: auto;
-    border-style: solid
+#grips img{
+ border-style: solid
+    
+}
+#grips{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.grip2{
-     margin-right: 600px; 
-      margin-top: -1000px;  
-     margin-left: 200px;
-     border-style: solid
-     
-}
 
 .sub{
     color: rgb(35, 158, 240);
@@ -64,21 +59,51 @@ div .col-lg-4 img{
 }
 
 .discription{
-    font-size: large;
+    font-size: x-large;
 }
 
 .lead{
-    font-size: medium;
+    font-size: large;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    width: 25%;
 }
 
 .action{
     border-radius: 90%;
    position: relative;
     bottom: 10px;
+    font-size: x-large;
 }
 
 .doom{
     position: relative;
-    bottom: 300px;
+    bottom: 600px;
+    word-wrap: wrap;
+    font-size: large;
+}
 
+#mapgap{
+   
+    position: relative;
+    bottom: 200px;
+}
+
+.mission{
+    font-size: 28px;
+    color: white;
+   background-image: linear-gradient( rgb(0, 0, 0),
+   rgba(255, 215, 15, 0.5));
+    /* border-radius%; */
+    width: 50%;
+    margin: auto;
+    /* text-shadow: 2px 2px red ; */
+    display: inline-block;
+    
+}
+
+.name{
+    font-size: large;
 }
