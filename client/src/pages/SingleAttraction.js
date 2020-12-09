@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Navbar from '../components/Navbar';
+import FooterHome from '../components/FooterHome';
+import '../styles/SingleAttraction.css'
 // import Attractions from './Attractions';
 
 
@@ -48,39 +49,36 @@ export default class SingleAttraction extends Component {
     render() {
         return (
             <div>
-                <Navbar />
                 <div className='singleContainer'>
-                    <div className='singleName'>
-                        {this.state.name}
-                    </div>
-                    <img className='singleImage' src={this.state.imageURL} alt='' />
-                    <div className='singleAddress'>
-                        <p>Address:</p>
-                        <div className='text-single-address'>
-                            {this.state.location.address}
-                            <br />
-                            {this.state.location.city}
-                            <br />
-                            {this.state.location.state}
-                            <br />
-                            {this.state.location.zipcode}
+                    <div className="singleHeaderContainer">
+                        <div className="singleHeaderInfo">
+                            <div className='singleName'>
+                                {this.state.name}
+                            </div>
+                            <div className='singleAddress'>
+                            <div className='text-single-address'>
+                                {this.state.location.address}
+                                <br />
+                                {this.state.location.city}, {this.state.location.state}
+                            </div>
                         </div>
-                    </div>
-                    <div className="singleDescriptionContainer">
-                        <div className='singleDescription'>
-                            {this.state.description}
                         </div>
-                        <div className="singleBooleans">
-                            <p>Indoors?</p>
-                            {this.state.indoors}
-                            <p>Family Friendly?</p>
-                            {this.state.childFriendly}
-                            <br />
-                            <br />
-                            <a href={this.state.website} target="_blank" rel="noreferrer">Website</a>
+                        <div className="singleHeaderImage">
+                            <img className='singleImage' src={this.state.imageURL} alt='' />
+                        </div>
+                        <div className="singleDescriptionContainer">
+                            <div className='singleDescription'>
+                                {this.state.description}
+                            </div>
+                            <div className="singleBooleans">
+                                <div id="singleIndoors"><span>Indoors?</span> <br/> {this.state.indoors}</div>
+                                <div id="singleFamily"><span>Family Friendly?</span> <br/> {this.state.childFriendly}</div>
+                            </div>
+                            <a href={this.state.website} target="_blank" rel="noreferrer">Visit Website</a>
                         </div>
                     </div>
                 </div>
+                <FooterHome />
             </div>
         )
     }
