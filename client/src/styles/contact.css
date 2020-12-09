@@ -364,15 +364,25 @@ div .contentContact {
 }
 
 .btn{
-    border-radius: 36px;
-    background: grey;
+    font-size: 26px;
+    color: white;
+    background-color: #303841;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
+    margin-top: 3rem;
+    font-family: "Quicksand", sans-serif;
   }
+  
 h3.text-center{
-    color: rgb(56, 182, 224);
+    color:  #303841;
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 5vh;
-    text-shadow: 3px 3px 3px yellow;
+    text-shadow: 3px 3px 3px white;
+    padding-top: 6rem;
+    
 }
 form{
     width: 360px;
@@ -383,6 +393,7 @@ form{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
     border-radius: 10px;
     position: relative;
+    
   }
   input{
     padding: 10px 12px;
@@ -398,15 +409,16 @@ form{
     text-shadow: 2px 2px 2px black;
   }
   .btn-contact {
-    font-size: 20px;
-    background-color: lightskyblue;
+    font-size: 26px;
     color: white;
-    margin-top: 5px;
-    text-transform: uppercase;
-    border-radius: 36px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px gray;
+    background-color: #303841;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
   }
+
+ 
 
   .btn-contact:hover {
       transform: scale(0.9);
@@ -419,6 +431,7 @@ form{
     background-position: center;
 }
 
+
 textarea.form-control {
     padding: 10px 12px;
     border-radius: 4px;
@@ -428,5 +441,5 @@ textarea.form-control {
 }
 
 form {
-    background-color: rgba(173, 216, 230, 0.815);
+    background-color: #00ADB5;
 }

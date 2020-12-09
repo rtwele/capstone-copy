@@ -60,7 +60,7 @@ export default class contact extends Component {
           <h3 className='text-center'>Contact Us</h3>
           <div className="containerContact">
             <div className="contentContact">
-            <form onSubmit={this.onSubmit}>
+            <form id='contact-form' onSubmit={this.onSubmit}>
               <div className="form-group">
                 <label>Name: </label>
                 <input
@@ -98,7 +98,7 @@ export default class contact extends Component {
                   <input
                   type="submit"
                   value="Send"
-                  className="btn-contact"
+                  className="btn btn-contact"
                   />
               </div>
             </form>

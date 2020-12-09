@@ -14,7 +14,7 @@ div .containerAddPage {
 }
 form.add {
     margin-top: 10vh;
-    background-color: rgba(241, 13, 241, 0.61);
+    background-color: #00ADB5;
     justify-content: center;
     align-items: center;
     color: white;
@@ -34,7 +34,8 @@ h2#header-text {
     font-size: 50px;
     text-emphasis: bold;
     color: white;
-    text-shadow: 5px 5px 5px rgb(241, 13, 241);
+    text-shadow: 2px 2px 2px #00ADB5;
+    padding-top: 6rem;
 }
 
 .form-group {
@@ -49,15 +50,19 @@ input .form-control {
 }
 
 .btn-add {
-    font-size: 20px;
-    background-color:lightskyblue;
+    font-size: 26px;
     color: white;
-    margin-top: 5px;
-    text-transform: uppercase;
-    border-radius: 36px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px black;
-}
+    background-color: #303841;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 0.5s;
+    margin-top: 3rem;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 0%;
+    border: none;
+    
+} 
 
 .btn-add:hover {
     transform: scale(0.9);

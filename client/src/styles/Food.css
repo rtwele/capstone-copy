@@ -1,7 +1,8 @@
+html,
 body {
-    background: hsla(210, 20%, 90%, 1);
-  
-  }
+    background: #E0E6EB!important;
+   
+}
   
   .food-banner {
     background-image: url("../img/beer.jpg");
@@ -89,6 +90,8 @@ body {
   h1 {
       font-size: 30pt;
       padding: 5rem;
+      text-shadow: 2px 2px white;
+
   }
   
  .cards {
