@@ -14,7 +14,7 @@ div .containerAddPage {
 }
 form.add {
     margin-top: 10vh;
-    background-color: #00ADB5;
+    background-color: #e2e2e2c9;
     justify-content: center;
     align-items: center;
     color: white;
@@ -24,17 +24,22 @@ form.add {
 input{
     width: 90%;
     text-align: center;
+    border: 1px solid black;
 }
 
 label {
     font-size: 30px;
+    color: black;
+    display: block;
+    margin: 20px 0 10px;
+    text-shadow: 2px 2px 2px black;
 }
 
 h2#header-text {
     font-size: 50px;
     text-emphasis: bold;
     color: white;
-    text-shadow: 2px 2px 2px #00ADB5;
+    text-shadow: 2px 2px 2px grey;
     padding-top: 6rem;
 }
 

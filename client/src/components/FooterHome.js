@@ -19,7 +19,7 @@ const FooterHome = () => (
           <h3>Sierra Hudson</h3>
           <a href="https://github.com/shudson327" rel="noreferrer" target="_blank">Github</a>
           <a href="https://www.linkedin.com/in/sierra-hudson-75b8231b8/" rel="noreferrer" target="_blank">LinkedIn</a>
-          <a href="https://shudson327.github.io/portfolio/" rel="noreferrer" target="_blank">Portfolio</a>
+          <a href="https://shudson327.github.io/sierrahudsonPortfolio2/" rel="noreferrer" target="_blank">Portfolio</a>
         </div>
         
         <div className="footer-personal-info">
