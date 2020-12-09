@@ -9,9 +9,9 @@ background-size: cover ;
 background-repeat: no-repeat;
 background-position: fixed; */
 }
-#root{
+.background{
     background-image: url('../assets/holder1.jpg');
- background-size: cover ;
+ /* background-size: cover ; */
     overflow: visible;
 }
 .row{
