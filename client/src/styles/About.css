@@ -38,19 +38,23 @@ background-position: fixed; */
 
 .grip{
     margin-left: 600px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: auto;
+    border-style: solid
 }
 
 .grip2{
      margin-right: 600px; 
       margin-top: -1000px;  
      margin-left: 200px;
+     border-style: solid
      
 }
 
 .sub{
     color: rgb(35, 158, 240);
+    position: relative;
+    bottom: 300px;
 }
 
 div .col-lg-4 img{
@@ -67,3 +71,14 @@ div .col-lg-4 img{
     font-size: medium;
 }
 
+.action{
+    border-radius: 90%;
+   position: relative;
+    bottom: 10px;
+}
+
+.doom{
+    position: relative;
+    bottom: 300px;
+
+}
