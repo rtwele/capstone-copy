@@ -8,6 +8,9 @@ background-image: url('../assets/holder1.jpg');
 background-size: cover ;
 background-repeat: no-repeat;
 background-position: fixed; */
+
+background-color: rgba(0, 0, 0, 0.856);
+opacity: 800%;
 }
 #root{
     background-image: url('../assets/holder1.jpg');
@@ -37,48 +40,92 @@ background-position: fixed; */
 }
 
 .grip{
-    margin-left: 600px;
-    margin-top: 10px;
-    margin-bottom: auto;
-    border-style: solid
+    /* margin-left: 600px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: auto; */
+    border-style: solid;
+    margin: 0 40px 0 0;
+}
+#grips{
+   margin: 0 0 500 0;
+   justify-content: space-between;
 }
 
 .grip2{
-     margin-right: 600px; 
-      margin-top: -1000px;  
-     margin-left: 200px;
+     /* margin-right: 600px;  */
+      /* margin-top: -1000px;   */
+  
      border-style: solid
+     
      
 }
 
-.sub{
-    color: rgb(35, 158, 240);
+.mission{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
     position: relative;
-    bottom: 300px;
+    top: 100px;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.sub{
+    color: rgb(15, 15, 15);
+    position: relative;
+    bottom: 625px;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
 }
 
 div .col-lg-4 img{
-    border: 3px solid rgb(30, 183, 243);
+    border: 3px solid rgb(238, 5, 5);
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.856);
     
 }
 
 .discription{
-    font-size: large;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: white;
+    
 }
 
 .lead{
-    font-size: medium;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 100px;
 }
 
 .action{
     border-radius: 90%;
    position: relative;
     bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    
 }
 
 .doom{
     position: relative;
-    bottom: 300px;
+    bottom: 635px;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
 
+}
+
+.iframe{
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
 }
