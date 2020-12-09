@@ -11,7 +11,7 @@ const Attraction = (props) => {
         <div className='allAttractions'>
             <div className='attractionsCard'>
                 <div className='cardImage'>
-                    <img src={props.attraction.imageURL} alt='attraction picture' />
+                    <img className='attractionImage' src={props.attraction.imageURL} alt='attraction picture' />
                 </div>
                 <div>
                     <div className='text-name'>{props.attraction.name}</div>
