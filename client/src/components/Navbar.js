@@ -3,6 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 
 
+
 const Navbar = () => {
     return (
         <header>
@@ -31,3 +32,36 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+
+{/* <li><NavLink to="/thingstodo" onClick={myFunction} className="dropbtn dropdown-content" id="myDropdown">Things To Do</NavLink></li></ul>
+                            <NavLink to="/Art">Art</NavLink>
+                            <NavLink to="/Sport">Sports</NavLink>
+                            <NavLink to="/Food">Breweries/Food</NavLink>
+                            <NavLink to="/Entertainment">Entertainment</NavLink>
+                            <NavLink to="/Tour">Tours</NavLink>
+                    </div>
+                    </div> */}
+
+                    {/* const myFunction = () => {
+        document.getElementById("myDropdown").classList.toggle("show");
+    
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    } */}
