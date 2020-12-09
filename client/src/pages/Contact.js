@@ -62,7 +62,7 @@ export default class contact extends Component {
             <div className="contentContact">
             <form id='contact-form' onSubmit={this.onSubmit}>
               <div className="form-group">
-                <label>Name: </label>
+                <label className="contact-label">Name: </label>
                 <input
                   type="text"
                   required
@@ -73,7 +73,7 @@ export default class contact extends Component {
                   </input>
               </div>
               <div className="form-group">
-                  <label>Email:</label>
+                  <label className="contact-label">Email:</label>
                   <input
                   type="email"
                   required
@@ -84,7 +84,7 @@ export default class contact extends Component {
                   </input>
               </div>
               <div className="form-group">
-                <label>Questions and Comments:</label>
+                <label className="contact-label">Questions and Comments:</label>
                   <textarea
                   type="text"
                   className="form-control"
