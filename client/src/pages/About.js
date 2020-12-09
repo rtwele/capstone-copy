@@ -54,22 +54,25 @@ const About = () => {
         </div>
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="doom">Meet The Team </h2> <h2><span class='sub'>Some of the best coders <br></br>this side of the Ohio river</span></h2>
-         <h3 class="mission">Our Mission Statement </h3>
-          <p class="lead"> Our quest is to manage business travel and fulfill vacation dreams through our commitment to personalized, world-class service.</p>
+        <div class="col-md-7 doom">
+          <h2 class="">Meet The Team </h2> <h2><span class=''>Some of the best coders <br></br>this side of the Ohio river</span></h2>
+         
         </div>
      
       </div>
 
       
 
-      <div class="row featurette iframe">
+      <div class="row featurette iframe" id='mapgap'>
+       <div className="mission">
+         <h3 class="">Our Mission Statement </h3>
+          <p class="lead"> Our quest is to manage business travel and fulfill vacation dreams through our commitment to personalized, world-class service.</p>
+          </div>
         <div class="col-md-7 order-md-2">
           <h2 class="action">Our Wonderful City <span class="bronson">See for yourself.</span></h2>
           <p class="lead"> </p>
         </div>
-        <div class="col-md-5 order-md-1">
+        <div class="col-md-5 order-md-1" >
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166499.14050380012!2d-84.62152039172686!3d39.156970071885816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH!5e0!3m2!1sen!2sus!4v1607461277924!5m2!1sen!2sus" width="700" height="360" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
         </div>
       </div>
