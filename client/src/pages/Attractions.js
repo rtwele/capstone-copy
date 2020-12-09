@@ -31,14 +31,16 @@ export default class Attractions extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            attractions:[]
+            attractions:[],
+            loading: true
         };
     }
     componentDidMount() {
         axios.get(BACKEND_URL + 'attractions/')
         .then(response => {
             this.setState({
-                attractions: response.data
+                attractions: response.data,
+                loading: false
             })
             console.log('this is the list of attractions')
         })
@@ -54,16 +56,21 @@ export default class Attractions extends Component {
 
     render() {
         return (
-            <div className='row'>
-            <div className='attractionsContainer'>
-                <h2 className='attractionsHeader'>Attractions</h2>
-                <div className='attractionsInnerContainer'>
-                    {this.attractionsList()}
+            this.state.loading === false ? (
+                <div className='row'>
+                <div className='attractionsContainer'>
+                    <h2 className='attractionsHeader'>Attractions</h2>
+                    <div className='attractionsInnerContainer'>
+                        {this.attractionsList()}
+                    </div>
                 </div>
-            </div>
-            <FooterHome />
-            </div>
-            
+                <FooterHome />
+                </div>
+            ) : (
+                <div>
+                    <h1 className="loading-spinner">Loading</h1>
+                </div>
+            )
         )
     }
 }
