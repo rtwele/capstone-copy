@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import {BACKEND_URL} from '../config'
 import FooterHome from '../components/FooterHome';
 import '../styles/SingleAttraction.css'
 // import Attractions from './Attractions';
@@ -21,10 +22,11 @@ export default class SingleAttraction extends Component {
             },
             indoors: false,
             childFriendly: false,
+            loading: true
         }
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/attractions/' + this.props.match.params.id)
+        axios.get(BACKEND_URL + 'attractions/' + this.props.match.params.id)
         .then((response) => {
             this.setState({
                 name: response.data.name,
@@ -38,7 +40,8 @@ export default class SingleAttraction extends Component {
                     zipcode: response.data.location.zipcode
                 },
                 indoors: response.data.indoors.toString(),
-                childFriendly: response.data.childFriendly.toString()
+                childFriendly: response.data.childFriendly.toString(),
+                loading: false
             })
         })
         .catch((error) => {
@@ -48,38 +51,44 @@ export default class SingleAttraction extends Component {
     }
     render() {
         return (
-            <div>
-                <div className='singleContainer'>
-                    <div className="singleHeaderContainer">
-                        <div className="singleHeaderInfo">
-                            <div className='singleName'>
-                                {this.state.name}
+            this.state.loading === false ? (
+                <div>
+                    <div className='singleContainer'>
+                        <div className="singleHeaderContainer">
+                            <div className="singleHeaderInfo">
+                                <div className='singleName'>
+                                    {this.state.name}
+                                </div>
+                                <div className='singleAddress'>
+                                <div className='text-single-address'>
+                                    {this.state.location.address}
+                                    <br />
+                                    {this.state.location.city}, {this.state.location.state}
+                                </div>
                             </div>
-                            <div className='singleAddress'>
-                            <div className='text-single-address'>
-                                {this.state.location.address}
-                                <br />
-                                {this.state.location.city}, {this.state.location.state}
                             </div>
-                        </div>
-                        </div>
-                        <div className="singleHeaderImage">
-                            <img className='singleImage' src={this.state.imageURL} alt='' />
-                        </div>
-                        <div className="singleDescriptionContainer">
-                            <div className='singleDescription'>
-                                {this.state.description}
+                            <div className="singleHeaderImage">
+                                <img className='singleImage' src={this.state.imageURL} alt='' />
                             </div>
-                            <div className="singleBooleans">
-                                <div id="singleIndoors"><span>Indoors?</span> <br/> {this.state.indoors}</div>
-                                <div id="singleFamily"><span>Family Friendly?</span> <br/> {this.state.childFriendly}</div>
+                            <div className="singleDescriptionContainer">
+                                <div className='singleDescription'>
+                                    {this.state.description}
+                                </div>
+                                <div className="singleBooleans">
+                                    <div id="singleIndoors"><span>Indoors?</span> <br/> {this.state.indoors}</div>
+                                    <div id="singleFamily"><span>Family Friendly?</span> <br/> {this.state.childFriendly}</div>
+                                </div>
+                                <a href={this.state.website} target="_blank" rel="noreferrer">Visit Website</a>
                             </div>
-                            <a href={this.state.website} target="_blank" rel="noreferrer">Visit Website</a>
                         </div>
                     </div>
+                    <FooterHome />
                 </div>
-                <FooterHome />
-            </div>
+            ) : (
+                <div>
+                    <h1 className="loading-spinner">Loading</h1>
+                </div>
+            )
         )
     }
 }
