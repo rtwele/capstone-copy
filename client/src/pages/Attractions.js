@@ -35,7 +35,7 @@ export default class Attractions extends Component {
         };
     }
     componentDidMount() {
-        axios.get(BACKEND_URL + 'attractions/')
+        axios.get('http://localhost:5000/attractions/')
         .then(response => {
             this.setState({
                 attractions: response.data
@@ -48,7 +48,7 @@ export default class Attractions extends Component {
     }
     attractionsList() {
         return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+            return <Attraction attractions = {currentAttraction} key={currentAttraction._id} />
         })
     }
 

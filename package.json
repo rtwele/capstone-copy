@@ -28,7 +28,7 @@
     "inherits": "^2.0.4",
     "isarray": "^2.0.5",
     "mongodb": "^3.6.3",
-    "mongoose": "^5.11.5",
+    "mongoose": "^5.11.6",
     "mpath": "^0.8.0",
     "mquery": "^3.2.2",
     "path": "^0.12.7",
