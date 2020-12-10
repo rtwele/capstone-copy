@@ -78,7 +78,9 @@ export default class SingleAttraction extends Component {
                                     <div id="singleIndoors"><span>Indoors?</span> <br/> {this.state.indoors}</div>
                                     <div id="singleFamily"><span>Family Friendly?</span> <br/> {this.state.childFriendly}</div>
                                 </div>
-                                <a href={this.state.website} target="_blank" rel="noreferrer">Visit Website</a>
+                                <div>
+                                <a href={this.state.website} className='attractionLink' target="_blank" rel="noreferrer">Visit Website</a>
+                                </div>
                             </div>
                         </div>
                     </div>

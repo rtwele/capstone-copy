@@ -53,3 +53,12 @@
     text-align: center;
     margin-top: 400px;
 }
+a.attractionLink {
+    text-decoration: none;
+}
+a.attractionLink:hover {
+    color: blue;
+    cursor: pointer;
+    /* font-size: 25px; */
+    text-decoration: underline;
+}
