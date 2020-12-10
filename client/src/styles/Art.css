@@ -18,6 +18,7 @@ body {
 .art-card {
   background: #fff;
   width: 140rem;
+  height: 350px;
   border-radius: 0.6em;
   overflow: hidden;
   cursor: pointer;

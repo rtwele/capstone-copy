@@ -97,7 +97,7 @@ body {
 
 div.ContainerReturn {
     margin-top: 20vh;
-    margin-bottom: 20vh;
+    
 }
 
 div .contentContact {
@@ -382,9 +382,9 @@ h3.text-center{
     color:  #303841;
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
     text-shadow: 3px 3px 3px white;
-    padding-top: 6rem;
+    padding-top: 2rem;
     
 }
 form{
@@ -444,4 +444,15 @@ textarea.form-control {
 
 form {
     background-color: rgba(0, 0, 0, 0.849);
+}
+
+@media screen and (maxwidth: 600px) {
+
+    div .contactContainerReturn {
+        background-image: url('../assets/mtAdams.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+    }
 }
