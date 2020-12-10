@@ -369,7 +369,7 @@ div .contentContact {
     background-color: #303841;
     width: 200px;
     height: 60px;
-    line-height: 60px;
+    /* line-height: 60px; */
     transition-duration: 0.5s;
     margin-top: 3rem;
     font-family: "Quicksand", sans-serif;
@@ -415,7 +415,6 @@ form{
     background-color: #303841;
     width: 250px;
     height: 60px;
-    line-height: 60px;
     transition-duration: 0.5s;
   }
 
