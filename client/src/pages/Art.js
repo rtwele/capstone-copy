@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Art.css'
 import FooterHome from '../components/FooterHome'
 
@@ -32,7 +31,6 @@ class ArtCards extends Component {
       <div className="art-banner">
        </div>
         <h1>Visual Arts & Culture</h1>
-        <h3></h3>
       </div>
       <div className='cards'>
         <Art
