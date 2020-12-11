@@ -39,7 +39,9 @@ class ArtCards extends Component {
          title='Cincinnati Art Museum'
          paragraph='Located in scenic Eden Park, the Cincinnati Art Museum features an unparalleled art collection of more than 67,000 works spanning 6,000 years. In addition to displaying its own broad collection, the Art Museum also hosts several national and international traveling exhibitions each year. The Rosenthal Education Center offers an immersive, hands-on experience for families'
          stars='4.5/5 stars'
-         btn='Visit Website' />
+         btn='Visit Website'
+
+         />
         <Art
          img='https://cincinnatiusa.com/sites/default/files/styles/Array/public/attractionphotos/200528_ArkEncounter_Exterior-%20%282%29.jpg'
          title='Ark Encounter'
